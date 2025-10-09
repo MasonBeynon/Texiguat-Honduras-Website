@@ -1,0 +1,188 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre Texiguat",
+    "history": "Historia",
+    "murals": "Murales",
+    "natural": "Belleza Natural",
+    "contact": "Contacto",
+    "stayUpdated": "Mantente Actualizado"
+  },
+  "hero": {
+    "title": "Bienvenido a Texiguat",
+    "subtitle": "Descubre la rica historia y belleza natural de este histórico pueblo hondureño",
+    "cta": "Explora Nuestra Historia"
+  },
+  "about": {
+    "title": "Sobre Texiguat",
+    "description": "Texiguat está ubicado en el sur de Honduras, a unas 2 horas al sur de Tegucigalpa. Una vez que llegues a Texiguat, serás recibido por algunas de las personas más amables, que estarán felices de saludarte. Texiguat cuenta con un hotel local, escuela, edificio gubernamental, iglesia y pulperías. Además de ser muy acogedores, los habitantes de Texiguat están muy orgullosos de su historia, lo cual se puede ver en los diversos murales alrededor del pueblo. Estos murales muestran el importante papel que Texiguat tuvo en la independencia de Honduras y las diversas cuentas de la historia local.",
+    "location": "Ubicado en el sur de Honduras, a unas 2 horas al sur de Tegucigalpa",
+    "features": "Hotel local, escuela, edificio gubernamental, iglesia y pulperías",
+    "locationTitle": "📍 Ubicación",
+    "features": {
+      "hotel": {
+        "title": "Hotel Local",
+        "description": "Alojamiento cómodo para que los visitantes experimenten la hospitalidad del pueblo."
+      },
+      "school": {
+        "title": "Escuela",
+        "description": "Centro educativo que sirve a la comunidad local y áreas circundantes."
+      },
+      "government": {
+        "title": "Edificio Gubernamental",
+        "description": "Centro administrativo que presenta el famoso mural de los nombres de las familias originales."
+      },
+      "church": {
+        "title": "Iglesia",
+        "description": "Histórica iglesia San Francisco de Asís con casi 200 años de historia."
+      },
+      "pulperias": {
+        "title": "Pulperías",
+        "description": "Tiendas de conveniencia locales que proporcionan artículos esenciales diarios a la comunidad."
+      },
+      "murals": {
+        "title": "Murales",
+        "description": "Hermosos murales por todo el pueblo que muestran la rica historia de Texiguat."
+      }
+    }
+  },
+  "history": {
+    "title": "Historia de Texiguat",
+    "families": {
+      "title": "Familias Originales",
+      "description": "En el edificio gubernamental de Texiguat, hay un mural que exhibe los nombres de Texiguat. Estos son los nombres de las familias originales que poblaron Texiguat, y casi todos los que viven en el pueblo ahora son descendientes de una de esas familias. Es un poderoso y hermoso homenaje a la historia del pueblo."
+    },
+    "morazan": {
+      "title": "Francisco Morazán",
+      "description": "Un lugar especial para visitar en Texiguat es el antiguo cuartel de Francisco Morazán. Francisco Morazán fue una figura muy influyente en la historia Centroamérica y hondureña. No solo fue un general en la lucha por la independencia de Centroamérica, sino que también fue presidente de Honduras, de la República Federal de Centroamérica, de El Salvador y de Costa Rica a finales del siglo XIX.",
+      "legacy": "Francisco Morazán ocupa un lugar especial en el corazón del pueblo de Texiguat. Su ejército estuvo compuesto en gran parte por indígenas texiguateños, a quienes él confiaba y respetaba profundamente. Este legado sigue siendo motivo de orgullo para la comunidad hoy en día. Sus antiguos cuarteles aún se conservan en la Plaza Civil de Texiguat y actualmente están siendo restaurados con el objetivo de convertirlos en un museo que honre y preserve la rica conexión histórica de la ciudad con Morazán.",
+      "legacyTitle": "Legado"
+    },
+    "church": {
+      "title": "Iglesia San Francisco de Asís",
+      "description": "Esta iglesia tiene casi 200 años de antigüedad con una interesante historia. Cuando los españoles ocuparon Honduras antes de su independencia, también estaban esclavizando a los pueblos indígenas. Los españoles les hacían realizar trabajos indeseables, incluyendo la construcción de la iglesia en el pueblo. Se dice que la cúpula principal de la iglesia, donde se encuentra el altar, fue tallada de una sola piedra.",
+      "jaguars": "Los pueblos indígenas que construyeron la iglesia también dejaron un homenaje a su cultura al tallar pequeños jaguares en el arco en la entrada de la iglesia, ya que estos animales eran muy importantes para ellos.",
+      "jaguarsTitle": "Tallados de Jaguares",
+      "legend": "A pesar de que esta es la historia escrita de la iglesia, también existe una historia hablada sobre cómo fue construida. En los cuentos locales, se dice que fue construida por el diablo. La historia cuenta que las personas involucradas en esta construcción, las brujas, taparon a los gallos para que no cantaran, y así no trajeran el día. Si el día nunca llegaba, la iglesia nunca se terminaría. Pero una mujer no pudo tapar al gallo, por lo que este cantó. Este canto del gallo provocó que la iglesia solo tuviera una torre campanario, así que, aunque la iglesia nunca se terminó por completo, fue construida.",
+      "legendTitle": "Leyenda Local"
+    }
+  },
+  "murals": {
+    "title": "Murales de Texiguat",
+    "october1": {
+      "title": "Mural del Primero de Octubre",
+      "description": "Antes de Morazán, Texiguat fue un lugar importante para los coloniales españoles. El 15 de septiembre de 1821, en la Ciudad de Guatemala, Centroamérica se independizó de España. El documento que contenía el acuerdo con España llegó a Comayagua el 28 de septiembre de 1821 por la mañana. Esa noche, llegó a Tegucigalpa. El 1 de octubre de 1821, las personas que transportaban el documento iban en camino hacia Nicaragua y se detuvieron en la iglesia de Texiguat. El mural muestra a dos hombres, el sacerdote José Antonio Márquez y Joaquín Rivera. Márquez era el sacerdote de la iglesia en ese momento, y Rivera era su asistente. Más tarde, Rivera se convirtió en jefe de estado. Estuvieron allí para recibir el documento de independencia en la iglesia. Este mural representa ese momento.",
+      "celebration": "En la plaza del pueblo, cada año el primero de octubre, durante 30 años, los estudiantes y los funcionarios del gobierno local recrean la firma del documento en la plaza del pueblo donde originalmente ocurrió. Debido a que la iglesia y los cuarteles están en esta plaza, Texiguat la ha denominado la Plaza Cívica.",
+      "celebrationTitle": "Celebración Anual"
+    },
+    "porceres": {
+      "title": "Mural de los Porceres y el Gallo",
+      "description": "Don Dionisio de Herea fue el primer jefe de estado de Honduras. Su primera constitución fue redactada en 1825. Las personas en este mural fueron personas reales, provenientes de una cultura indígena llamada la Rinconada. Los antepasados de las personas representadas en este mural fueron los soldados de Francisco Morazán. Se les conocía como los 'Gallos de Morazán.' Fueron el ejército que ayudó a Morazán a gestionar el conflicto entre Comayagua y Tegucigalpa, y lucharon en la Batalla de Trinidad."
+    },
+    "heroes": {
+      "title": "Mural de los Próceres",
+      "valle": "El primer hombre representado es Don José Cecilio de Valle. Él era hondureño y escribió el Acta de Independencia. Formaba parte de las autoridades de España, ya que sus padres eran españoles. Utilizó su conocimiento para redactar el Acta de Independencia.",
+      "reyes": "José Trinidad Reyes fue un sacerdote hondureño y es la segunda persona representada en este mural. Fue el gran académico que creó la Sociedad del Genio Empresarial y Buen Gusto, que ahora es la Universidad Nacional Autónoma de Honduras.",
+      "lempira": "La siguiente persona en el mural fue un valiente indígena que se opuso a la esclavización de los pueblos indígenas de Honduras por parte de los españoles en Texiguat. Luchó contra los españoles por la libertad de su pueblo. Su ejército tenía una gran desventaja, ya que luchaban con arcos y flechas, mientras que los españoles combatían con armas de fuego. Los españoles ordenaron su muerte y lo mataron. En honor a ese día, el 20 de julio, el pueblo de Texiguat lo celebra. Su nombre fue Lempira. Él puede ser visto en el billete de un lempira de la moneda hondureña, que lleva su nombre.",
+      "morazan": "Francisco Morazán es la siguiente persona en este mural. Él tenía una situación diferente, porque sus padres no eran de origen español, sino italiano. Sus padres eran de la isla de Córcega, y a Morazán se le conocía como el Presidente Corsicano. Durante la famosa Guerra Civil de Centroamérica, un bando quería la independencia total, mientras que el otro quería ser parte de España o México. En 1827, Morazán entra en la lucha, un año antes de que se construyan sus cuarteles en Texiguat. Desde 1827 hasta 1842, hubo 19 batallas conocidas como las Luchas por la Libertad."
+    },
+    "chess": {
+      "title": "Mural de Morazán y Ajedrez",
+      "description": "Este mural está ubicado en el costado del edificio de los cuarteles en Texiguat, donde Francisco Morazán y sus soldados se alojaron a partir de 1828. Mientras este edificio se convierte en un museo dedicado a los esfuerzos de Morazán, se tomarán medidas para garantizar que el mural no se dañe. La razón por la que este mural está colocado aquí es porque en el otro lado de la pared está la habitación donde Morazán vivió. Este edificio cumplirá 200 años el 4 de junio de 2028. Los jaguares eran importantes para la cultura indígena de Texiguat, y el jaguar se ha añadido para representar la fuerza de los soldados de Morazán."
+    },
+    "devil": {
+      "title": "Mural del Diablo y la Iglesia",
+      "description": "Este mural representa la historia local de cómo se construyó la iglesia. En este mural se puede ver la iglesia, Gaspar la bruja con el gallo, un indígena pescando un pez y una persona mitad animal, mitad humana, que está enojada. En los libros de historia, la Iglesia San Francisco de Asís fue construida en tres meses por esclavos indígenas de los españoles. Sin embargo, en los relatos locales, se dice que fue construida por el diablo."
+    },
+    "lastnames": {
+      "title": "Mural de los Apellidos",
+      "description": "Este mural es un reconocimiento a las personas que provienen de España, cuyas familias ahora conforman Texiguat. El edificio en el que está este mural fue donde se registró por primera vez a las personas en Texiguat. Hay un poco más de 40 apellidos, todos los de las personas que ahora viven aquí. Las plantas y los animales representan la flora y fauna local de la zona."
+    },
+    "indigenous": {
+      "title": "Mural de la Vida Indígena",
+      "description": "Este es un mural que representa la vida de los pueblos indígenas de Texiguat. Se pueden ver ganado, maíz, y pescado. También en este mural hay una parte de la réplica de la Batalla de Trinidad."
+    },
+    "mythical": {
+      "title": "Mural de lo Mítico y Musical",
+      "description": "Este mural representa diferentes figuras míticas de la zona, como el Hombre sin Cabeza y la Llorona. También hay una representación del lado artístico del área con la representación de los Junitos de Cuerda, quienes son músicos."
+    }
+  },
+  "natural": {
+    "title": "Belleza Natural",
+    "description": "Texiguat está rodeado de impresionante belleza natural, desde colinas ondulantes hasta ríos prístinos. La ubicación del pueblo ofrece a los visitantes la oportunidad de experimentar los diversos ecosistemas del sur de Honduras.",
+    "highlights": "Colinas ondulantes y follaje exuberante, Parada en Nueva Armenia, Vistas del río y puente, Vistas de montañas, Vistas de la planta de tratamiento de agua, Bosques bonitos",
+    "highlightsTitle": "Destacados Naturales",
+    "features": {
+      "rollingHills": {
+        "title": "Colinas Ondulantes",
+        "description": "Ubicado entre colinas ondulantes, el viaje hacia el pueblo es impresionante y está lleno de vegetación verde y exuberante."
+      },
+      "nuevaArmenia": {
+        "title": "Nueva Armenia",
+        "description": "A lo largo del trayecto, se puede hacer una parada en Nueva Armenia, que tiene un hermoso jardín central y un río mágico."
+      },
+      "riverBridge": {
+        "title": "Río y Puente",
+        "description": "Texiguat tiene un río impresionante que cruza el pueblo, y el puente que lo atraviesa ofrece vistas espectaculares de las montañas que lo rodean."
+      }
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "tourism": "Turismo",
+    "culture": "Cultura",
+    "adventure": "Aventura",
+    "tourismDescription": "Explora playas vírgenes, ruinas antiguas y ciudades vibrantes. Nuestros tours guiados proporcionan experiencias auténticas de los destinos más hermosos de Honduras.",
+    "cultureDescription": "Sumérgete en las tradiciones locales, música y cocina. Experimenta el rico patrimonio cultural que hace único a Honduras.",
+    "adventureDescription": "Desde tirolina a través de bosques nubosos hasta buceo en aguas cristalinas, la aventura espera en cada esquina.",
+    "learnMore": "Aprende Más",
+    "discover": "Descubre",
+    "explore": "Explora"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje"
+  },
+  "stayUpdated": {
+    "title": "Mantente Actualizado con Texiguat",
+    "description": "Para eventos actuales, fotos recientes, actualizaciones de la comunidad y las últimas noticias de Texiguat, sigue nuestra página de Facebook donde compartimos actualizaciones regulares sobre la vida en nuestro hermoso pueblo.",
+    "facebookPage": "Página de Facebook de Texiguat",
+    "facebookDescription": "Conéctate con la comunidad de Texiguat en Facebook para ver:",
+    "facebookFeatures": [
+      "Eventos actuales y festivales",
+      "Fotos y videos recientes",
+      "Anuncios de la comunidad",
+      "Noticias locales y actualizaciones",
+      "Información para visitantes y consejos"
+    ],
+    "visitButton": "Visita Nuestra Página de Facebook",
+    "note": "💡 Nota: Este sitio web se enfoca en la rica historia de Texiguat y las atracciones permanentes. Para eventos actuales y actualizaciones regulares, por favor visita nuestra página de Facebook."
+  },
+  "footer": {
+    "copyright": "© 2024 Sitio Web de Texiguat. Todos los derechos reservados.",
+    "description": "Descubre la belleza, cultura y rica historia de Texiguat, Honduras.",
+    "texiguat": "Texiguat",
+    "quickLinks": "Enlaces Rápidos",
+    "location": "Ubicación",
+    "stayConnected": "Mantente Conectado",
+    "locationDetails": [
+      "📍 Texiguat, Honduras",
+      "📍 2 horas al sur de Tegucigalpa",
+      "🌍 Sur de Honduras"
+    ],
+    "stayConnectedDescription": "Para eventos actuales, fotos recientes y actualizaciones de la comunidad, visita nuestra página de Facebook.",
+    "followFacebook": "📘 Síguenos en Facebook",
+    "socialMedia": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter"
+    }
+  },
+  "language": {
+    "en": "EN",
+    "es": "ES"
+  }
+} 

@@ -1,0 +1,188 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Texiguat",
+    "history": "History",
+    "murals": "Murals",
+    "natural": "Natural Beauty",
+    "contact": "Contact",
+    "stayUpdated": "Stay Updated"
+  },
+  "hero": {
+    "title": "Welcome to Texiguat",
+    "subtitle": "Discover the rich history and natural beauty of this historic Honduran town",
+    "cta": "Explore Our Story"
+  },
+  "about": {
+    "title": "About Texiguat",
+    "description": "Texiguat is located in southern Honduras, about 2 hours south of Tegucigalpa. Once you arrive in Texiguat, you will be met with some of the kindest people who will be happy to say hello. Texiguat has a local hotel, school, government building, church, and pulperías. Along with being very welcoming, the people of Texiguat are very proud of their history, which can be seen in the various murals around the town. These murals display the important role Texiguat had in Honduras independence, and the various stories of local history.",
+    "location": "Located in southern Honduras, about 2 hours south of Tegucigalpa",
+    "features": "Local hotel, school, government building, church, and pulperías",
+    "locationTitle": "📍 Location",
+    "features": {
+      "hotel": {
+        "title": "Local Hotel",
+        "description": "Comfortable accommodation for visitors to experience the town's hospitality."
+      },
+      "school": {
+        "title": "School",
+        "description": "Education center serving the local community and surrounding areas."
+      },
+      "government": {
+        "title": "Government Building",
+        "description": "Administrative center featuring the famous mural of original family names."
+      },
+      "church": {
+        "title": "Church",
+        "description": "Historic San Francisco de Asís church with nearly 200 years of history."
+      },
+      "pulperias": {
+        "title": "Pulperías",
+        "description": "Local convenience stores providing daily essentials to the community."
+      },
+      "murals": {
+        "title": "Murals",
+        "description": "Beautiful murals throughout the town showcasing Texiguat's rich history."
+      }
+    }
+  },
+  "history": {
+    "title": "History of Texiguat",
+    "families": {
+      "title": "Original Families",
+      "description": "On the government building of Texiguat, there is a mural displaying the names of Texiguat. These are the names of the original families that populated Texiguat, and almost everyone living in the town now is a descendant of one of those families. It is a powerful and beautiful honor to the town's history."
+    },
+    "morazan": {
+      "title": "Francisco Morazán",
+      "description": "A unique location to visit in Texiguat is the old barracks of Francisco Morazán. Francisco Morazán was a very influential figure in Honduran and Central American history. Not only was he a general in Central America's fight for independence, but he was also the President of Honduras, The Federal Republic of Central America, El Salvador, and Costa Rica in the late 19th century.",
+      "legacy": "Francisco Morazán holds a special place in the hearts of the people of Texiguat. His army was largely composed of indigenous Texiguans, whom he trusted and deeply respected. This legacy remains a source of pride for the community today. His former barracks still stand in the Plaza Civil of Texiguat and are currently being restored with the goal of transforming them into a museum that will honor and preserve the town's rich historical connection to Morazán.",
+      "legacyTitle": "Legacy"
+    },
+    "church": {
+      "title": "Church of San Francisco de Asís",
+      "description": "This church is nearly 200 years old and has a very interesting history. When the Spaniards occupied Honduras before its independence, they were also enslaving the indigenous people there. The Spaniards were making them do undesirable work, including building the church in the town. It is said that the main dome of the church where the altar sits, was carved out of one stone.",
+      "jaguars": "The indigenous people who built the church left a homage to their culture as well by carving small jaguars into the arch of the entrance to the church, as these animals were important to them.",
+      "jaguarsTitle": "Jaguar Carvings",
+      "legend": "Despite this being the written history of the church, there is also a spoken story of how it was built. In local tales, it was built by the devil. The tale says that the people who were involved in this construction, the witches, covered up the roosters so that they would not sing, and therefore would not bring day. If day never came, then the church would never be finished. But one lady couldn't cover the rooster so it sang. This cry of the rooster caused it so that the church only has one bell tower, so even through the church was never fully finished, it was built.",
+      "legendTitle": "Local Legend"
+    }
+  },
+  "murals": {
+    "title": "Murals of Texiguat",
+    "october1": {
+      "title": "1st of October Mural",
+      "description": "Before Morazán, Texiguat was a place important to the Spanish Colonials. September 15, 1821 in Guatemala City, Central America became independent from Spain. The document that had the agreement with Spain arrived in Comayagua on the 28th of September 1821 in the morning. That night, it arrived in Tegucigalpa. October 1, 1821, the people transporting the document were on their way to Nicaragua and stopped in the church in Texiguat. The mural displays two men, priest José Antonio Márquez and Joaquín Rivera. Marquez was the priest of the church at the time, and Rivera was his assistant. Rivera later became head of state. They were there to receive the document of independence at the church. This mural represents that moment.",
+      "celebration": "In the town square every year on the first of October, for 30 years, students and local government officials re-create the signing of the document in the town square where it originally happened. Because of the church and the barracks are in this square, Texiguat has named it the Civic Plaza.",
+      "celebrationTitle": "Annual Celebration"
+    },
+    "porceres": {
+      "title": "Mural of the Porceres and Chicken",
+      "description": "Don Dionisio de Herea was the first head of state of Honduras. His first constitution was made in 1825. The people in this mural were real people, people from an indigenous culture called the Rinconada. The ancestors of the people depicted in this mural were the soldiers of Francisco Morazán. They were called the 'Gallos de Morazán' or 'The Chickens of Morazán.' They were the army that helped Morazán manage the conflict between Comayagua and Tegucigalpa, and fought in the Battle of Trinidad."
+    },
+    "heroes": {
+      "title": "Mural of the Heroes",
+      "valle": "The first man depicted is Don José Cecilio de Valle. He was a Honduran who wrote the Act of Independence. He was a part of the authorities of Spain, because his parents were Spanish. He used his knowledge to make the Act of Independence.",
+      "reyes": "José Trinidad Reyes was a Honduran priest and is the second person depicted in this mural. He was the grand academic that created the Society of the Enterprising Genius and Good Taste that is now the national university, Universidad Nacional Autónoma de Honduras.",
+      "lempira": "The next person in the mural was a brave indigenous person who opposed the Spaniards enslavement of the indigenous people of Honduras in Texiguat. He fought against the Spaniards for the freedom of his people. His army had a huge disadvantage, because they fought with bow and arrows while the Spaniards fought with guns. The Spaniards ordered his death and killed him. In honor of that day, July 20, the people of Texiguat celebrate him. His name was Lempira. He can be seen on the one lempira bill of Honduran currency, which are named after him.",
+      "morazan": "Francisco Morazán is the next person in this mural. He had a different situation, because his parents was not of Spanish origin, but Italian. His parents were from the island of Corsica, and they called Morazán the Corsican President. During the famous Civil War of Central America, one side wanted complete independence, and the other wanted to be a part of Spain or Mexico. 1827, Morazán enters the fight, one year before his barracks in Texiguat is built. From 1827-1842, there were 19 battles which were called the Fights of Liberty."
+    },
+    "chess": {
+      "title": "Morazán Chess Mural",
+      "description": "This mural is located on the side of the barracks building in Texiguat where Francisco Morazán and his soldiers stayed, starting in 1828. While this building is being made into a museum of Morazán efforts will be taken to make sure this mural is not damaged. The reason why this mural is placed here is because on the other side of the wall is the room where Morazán lived. This building will be 200 years old on June 4, 2028. Jaguars were important to the indigenous culture of Texiguat, and the jaguar is added to represent the strength of Morazán's soldiers."
+    },
+    "devil": {
+      "title": "Devil and the Church Mural",
+      "description": "This mural represents the local story of how the church was built. In this mural there is the church, Gaspar the witch with the rooster, an indigenous person catching a fish, and a part animal part human person who is mad. In the history books, Iglesia San Francisco de Asís was constructed in three months by indigenous slaves of the Spaniards. However in local tales, it was built by the devil."
+    },
+    "lastnames": {
+      "title": "Last Name Mural",
+      "description": "This mural is a recognition of the people that come from Spain, whose families now make up Texiguat. The building this mural is on was where there was the first record of the people in Texiguat. There are a little more than 40 last names, all of the people that now live here. The plants and animals represent the local floral and fauna of the area."
+    },
+    "indigenous": {
+      "title": "Indigenous Life Mural",
+      "description": "This is a mural depicting the life of the indigenous people of Texiguat. Livestock, corn, and fish. Also on this mural is a part of the replica of the Battle of Trinidad."
+    },
+    "mythical": {
+      "title": "Mythical and Music Mural",
+      "description": "This mural depicts different mythical figures of the area such as the Man without a Head and the Llorona. There is also a representation of the artistic side of the area with the depiction of the Junitos de Cuerda who are musicians."
+    }
+  },
+  "natural": {
+    "title": "Natural Beauty",
+    "description": "Texiguat is surrounded by stunning natural beauty, from rolling hills to pristine rivers. The town's location offers visitors a chance to experience the diverse ecosystems of southern Honduras.",
+    "highlights": "Rolling hills and lush foliage, Nueva Armenia stopover, River and bridge views, Mountain vistas, Water treatment facility views, Nice forests",
+    "highlightsTitle": "Natural Highlights",
+    "features": {
+      "rollingHills": {
+        "title": "Rolling Hills",
+        "description": "Nested between rolling hills, the drive to the town is gorgeous and filled with lush, green foliage."
+      },
+      "nuevaArmenia": {
+        "title": "Nueva Armenia",
+        "description": "Along the drive, one can stop in Nueva Armenia, which has a beautiful central garden and a magical river."
+      },
+      "riverBridge": {
+        "title": "River & Bridge",
+        "description": "Texiguat has a stunning river that runs through the town, and the bridge that crosses over it gives great views of the mountains around it."
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "tourism": "Tourism",
+    "culture": "Culture",
+    "adventure": "Adventure",
+    "tourismDescription": "Explore pristine beaches, ancient ruins, and vibrant cities. Our guided tours provide authentic experiences of Honduras' most beautiful destinations.",
+    "cultureDescription": "Immerse yourself in local traditions, music, and cuisine. Experience the rich cultural heritage that makes Honduras unique.",
+    "adventureDescription": "From zip-lining through cloud forests to diving in crystal-clear waters, adventure awaits at every turn.",
+    "learnMore": "Learn More",
+    "discover": "Discover",
+    "explore": "Explore"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send Message"
+  },
+  "stayUpdated": {
+    "title": "Stay Updated with Texiguat",
+    "description": "For current events, recent photos, community updates, and the latest news from Texiguat, follow our Facebook page where we share regular updates about life in our beautiful town.",
+    "facebookPage": "Texiguat Facebook Page",
+    "facebookDescription": "Connect with the Texiguat community on Facebook to see:",
+    "facebookFeatures": [
+      "Current events and festivals",
+      "Recent photos and videos",
+      "Community announcements",
+      "Local news and updates",
+      "Visitor information and tips"
+    ],
+    "visitButton": "Visit Our Facebook Page",
+    "note": "💡 Note: This website focuses on Texiguat's rich history and permanent attractions. For current events and regular updates, please visit our Facebook page."
+  },
+  "footer": {
+    "copyright": "© 2024 Texiguat Website. All rights reserved.",
+    "description": "Discover the beauty, culture, and rich history of Texiguat, Honduras.",
+    "texiguat": "Texiguat",
+    "quickLinks": "Quick Links",
+    "location": "Location",
+    "stayConnected": "Stay Connected",
+    "locationDetails": [
+      "📍 Texiguat, Honduras",
+      "📍 2 hours south of Tegucigalpa",
+      "🌍 Southern Honduras"
+    ],
+    "stayConnectedDescription": "For current events, recent photos, and community updates, visit our Facebook page.",
+    "followFacebook": "📘 Follow us on Facebook",
+    "socialMedia": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "twitter": "Twitter"
+    }
+  },
+  "language": {
+    "en": "EN",
+    "es": "ES"
+  }
+} 

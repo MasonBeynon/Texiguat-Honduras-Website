@@ -1,0 +1,9 @@
+export { default as Navigation } from './Navigation';
+export { default as Footer } from './Footer';
+export { default as LanguageSwitcher } from './LanguageSwitcher';
+export { default as Hero } from './Hero';
+export { default as About } from './About';
+export { default as History } from './History';
+export { default as Murals } from './Murals';
+export { default as NaturalBeauty } from './NaturalBeauty';
+export { default as Facebook } from './Contact'; 
