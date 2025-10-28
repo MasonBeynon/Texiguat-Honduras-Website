@@ -112,6 +112,27 @@ const HistoryImage = styled.div`
   }
 `;
 
+const HistoryImageActual = styled.img`
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left center;
+  background: white;
+`;
+
+const HistoryImageContainer = styled.div`
+  flex: 1;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background: white;
+  padding: 0;
+`;
+
 const HistoryTextContent = styled.div`
   flex: 1;
   padding: 2.5rem;
@@ -155,7 +176,9 @@ const History: React.FC = () => {
       </HistoryHeader>
       <HistoryContentWrapper>
         <HistoryRowAlternate>
-          <HistoryImage />
+          <HistoryImageContainer>
+            <HistoryImageActual src="/images/history/Town Hall_2.jpg" alt="Town Hall" />
+          </HistoryImageContainer>
           <HistoryTextContent>
             <HistoryCardTitle>{t('history.families.title')}</HistoryCardTitle>
             <HistoryCardDescription>{t('history.families.description')}</HistoryCardDescription>
@@ -163,7 +186,9 @@ const History: React.FC = () => {
         </HistoryRowAlternate>
         
         <HistoryRow>
-          <HistoryImage />
+          <HistoryImageContainer>
+            <HistoryImageActual src="/images/history/Trinidad_4.jpg" alt="Trinidad" />
+          </HistoryImageContainer>
           <HistoryTextContent>
             <HistoryCardTitle>{t('history.morazan.title')}</HistoryCardTitle>
             <HistoryCardDescription>{t('history.morazan.description')}</HistoryCardDescription>
@@ -173,7 +198,9 @@ const History: React.FC = () => {
         </HistoryRow>
         
         <HistoryRowAlternate>
-          <HistoryImage />
+          <HistoryImageContainer>
+            <HistoryImageActual src="/images/hero/Town Church.png" alt="Town Church" />
+          </HistoryImageContainer>
           <HistoryTextContent>
             <HistoryCardTitle>{t('history.church.title')}</HistoryCardTitle>
             <HistoryCardDescription>{t('history.church.description')}</HistoryCardDescription>

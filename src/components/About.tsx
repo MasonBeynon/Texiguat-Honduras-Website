@@ -94,16 +94,55 @@ const LocationText = styled.p`
   margin-bottom: 1.5rem;
 `;
 
-const LocationImage = styled.div`
+const MapWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 600px;
-  background: url('/images/about/location-map.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 10px;
   margin-top: 1rem;
+`;
+
+const LocationImage = styled.img`
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
   border: 2px solid rgba(255, 255, 255, 0.3);
+`;
+
+const MapsGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1rem;
+`;
+
+const TownImageWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+`;
+
+const TownImage = styled.img`
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+`;
+
+const MapLabel = styled.p`
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  opacity: 0.9;
+  font-weight: 500;
+`;
+
+const MapContainer = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
 
 const About: React.FC = () => {
@@ -118,7 +157,14 @@ const About: React.FC = () => {
         <LocationInfo>
           <LocationTitle>{t('about.locationTitle')}</LocationTitle>
           <LocationText>{t('about.location')}</LocationText>
-          <LocationImage />
+          <MapsGrid>
+            <MapWrapper>
+              <LocationImage src="/images/about/location-map.png" alt="Location Map" />
+            </MapWrapper>
+            <TownImageWrapper>
+              <TownImage src="/images/about/Texiguat-satalite.png" alt="Texiguat Satellite Map" />
+            </TownImageWrapper>
+          </MapsGrid>
         </LocationInfo>
         
         <FeaturesGrid>

@@ -104,6 +104,22 @@ const FeatureImage = styled.div`
   }
 `;
 
+const FeatureImageContainer = styled.div`
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  background: white;
+`;
+
+const FeatureImageActual = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+`;
+
 const FeatureIcon = styled.div`
   width: 80px;
   height: 80px;
@@ -191,21 +207,27 @@ const NaturalBeauty: React.FC = () => {
         
         <FeaturesGrid>
           <FeatureCard>
-            <FeatureImage style={{ '--emoji': '"🏔️"' } as React.CSSProperties} />
+            <FeatureImageContainer>
+              <FeatureImageActual src="/images/natural/Rolling Hills.jpg" alt="Rolling Hills" />
+            </FeatureImageContainer>
             <FeatureIcon>🏔️</FeatureIcon>
             <FeatureTitle>{t('natural.features.rollingHills.title')}</FeatureTitle>
             <FeatureText>{t('natural.features.rollingHills.description')}</FeatureText>
           </FeatureCard>
           
           <FeatureCard>
-            <FeatureImage style={{ '--emoji': '"🏞️"' } as React.CSSProperties} />
+            <FeatureImageContainer>
+              <FeatureImageActual src="/images/natural/Nueva Armania.jpg" alt="Nueva Armenia" />
+            </FeatureImageContainer>
             <FeatureIcon>🏞️</FeatureIcon>
             <FeatureTitle>{t('natural.features.nuevaArmenia.title')}</FeatureTitle>
             <FeatureText>{t('natural.features.nuevaArmenia.description')}</FeatureText>
           </FeatureCard>
           
           <FeatureCard>
-            <FeatureImage style={{ '--emoji': '"🌉"' } as React.CSSProperties} />
+            <FeatureImageContainer>
+              <FeatureImageActual src="/images/natural/Bridge.jpg" alt="River Bridge" />
+            </FeatureImageContainer>
             <FeatureIcon>🌉</FeatureIcon>
             <FeatureTitle>{t('natural.features.riverBridge.title')}</FeatureTitle>
             <FeatureText>{t('natural.features.riverBridge.description')}</FeatureText>
