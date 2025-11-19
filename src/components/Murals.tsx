@@ -177,21 +177,40 @@ const ModalImage = styled.div`
   justify-content: center;
   position: relative;
   overflow: hidden;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem;
 
   img {
     width: 100%;
     height: auto;
     display: block;
+    object-fit: contain;
   }
 
-  &::before {
+  &.multiple-images {
+    img {
+      width: calc(50% - 0.25rem);
+      flex: 1 1 calc(50% - 0.25rem);
+      min-width: 200px;
+    }
+
+    @media (max-width: 768px) {
+      img {
+        width: 100%;
+        flex: 1 1 100%;
+      }
+    }
+  }
+
+  &:empty::before {
     content: '🖼️';
     font-size: 4rem;
     opacity: 0.3;
     position: absolute;
   }
 
-  &::after {
+  &:empty::after {
     content: 'Mural Image';
     position: absolute;
     bottom: 1rem;
@@ -251,6 +270,7 @@ interface MuralData {
   x: number; // percentage position on map
   y: number; // percentage position on map
   imagePath?: string;
+  imagePaths?: string[]; // for multiple images
   translationKey: string;
   hasExtraContent?: boolean;
 }
@@ -261,63 +281,62 @@ const Murals: React.FC = () => {
   const [imageError, setImageError] = useState<{ [key: string]: boolean }>({});
 
   // Mural positions on the map (x, y as percentages)
-  // These can be adjusted based on actual mural locations
   const murals: MuralData[] = [
     {
       id: 'october1',
-      x: 30,
-      y: 25,
+      x: 10.092006546309836,
+      y: 16.704177083006847,
       imagePath: '/images/murals/october1-independence.jpg',
       translationKey: 'october1',
       hasExtraContent: true
     },
     {
       id: 'porceres',
-      x: 45,
-      y: 40,
+      x: 21.046577754697434,
+      y: 21.14382547716149,
       imagePath: '/images/murals/porceres-chicken.jpg',
       translationKey: 'porceres'
     },
     {
       id: 'heroes',
-      x: 60,
-      y: 30,
-      imagePath: '/images/murals/heroes-mural.jpg',
+      x: 29.499711443059518,
+      y: 37.12655969611821,
+      imagePaths: ['/images/murals/Trinidad_1.jpg', '/images/murals/Trinidad_2.jpg'],
       translationKey: 'heroes',
       hasExtraContent: true
     },
     {
       id: 'chess',
-      x: 55,
-      y: 50,
+      x: 13.110982863582008,
+      y: 22.179743435797576,
       imagePath: '/images/murals/chess-mural.jpg',
       translationKey: 'chess'
     },
     {
       id: 'devil',
-      x: 40,
-      y: 60,
-      imagePath: '/images/murals/devil-church-mural.jpg',
+      x: 15.526163917399746,
+      y: 27.6553097885883,
+      imagePaths: ['/images/murals/Devil_1.jpg', '/images/murals/Devil_2.jpg'],
       translationKey: 'devil'
     },
     {
       id: 'lastnames',
-      x: 50,
-      y: 20,
-      imagePath: '/images/murals/lastnames-mural.jpg',
+      x: 17.855088505009707,
+      y: 39.198395613390375,
+      imagePath: '/images/history/Town Hall_2.jpg',
       translationKey: 'lastnames'
     },
     {
       id: 'indigenous',
-      x: 35,
-      y: 45,
+      x: 24.324323470592937,
+      y: 45.16725547949097,
       imagePath: '/images/murals/indigenous-life-mural.jpg',
       translationKey: 'indigenous'
     },
     {
       id: 'mythical',
-      x: 65,
-      y: 55,
+      x: 44.68084949562816,
+      y: 52.961305635269774,
       imagePath: '/images/murals/mythical-music-mural.jpg',
       translationKey: 'mythical'
     }
@@ -357,8 +376,12 @@ const Murals: React.FC = () => {
     };
   }, [selectedMural]);
 
-  const handleImageError = (muralId: string) => {
-    setImageError(prev => ({ ...prev, [muralId]: true }));
+  const handleImageError = (muralId: string, imageIndex?: number) => {
+    if (imageIndex !== undefined) {
+      setImageError(prev => ({ ...prev, [`${muralId}_${imageIndex}`]: true }));
+    } else {
+      setImageError(prev => ({ ...prev, [muralId]: true }));
+    }
   };
 
   const selectedMuralData = murals.find(m => m.id === selectedMural);
@@ -371,7 +394,7 @@ const Murals: React.FC = () => {
       <MuralsContent>
         <MapWrapper>
           <MapImage 
-            src="/images/about/Texiguat-satalite.png" 
+            src="/images/murals/Satelite.png" 
             alt="Texiguat Satellite Map"
           />
           {murals.map((mural) => (
@@ -392,8 +415,20 @@ const Murals: React.FC = () => {
                 ×
               </CloseButton>
               
-              <ModalImage>
-                {selectedMuralData.imagePath && !imageError[selectedMuralData.id] ? (
+              <ModalImage className={selectedMuralData.imagePaths && selectedMuralData.imagePaths.length > 1 ? 'multiple-images' : ''}>
+                {selectedMuralData.imagePaths && selectedMuralData.imagePaths.length > 0 ? (
+                  selectedMuralData.imagePaths.map((imgPath, index) => {
+                    const errorKey = `${selectedMuralData.id}_${index}`;
+                    return !imageError[errorKey] ? (
+                      <img 
+                        key={index}
+                        src={imgPath} 
+                        alt={`${t(`murals.${selectedMuralData.translationKey}.title`)} - ${index + 1}`}
+                        onError={() => handleImageError(selectedMuralData.id, index)}
+                      />
+                    ) : null;
+                  })
+                ) : selectedMuralData.imagePath && !imageError[selectedMuralData.id] ? (
                   <img 
                     src={selectedMuralData.imagePath} 
                     alt={t(`murals.${selectedMuralData.translationKey}.title`)}
