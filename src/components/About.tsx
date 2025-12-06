@@ -159,10 +159,10 @@ const About: React.FC = () => {
           <LocationText>{t('about.location')}</LocationText>
           <MapsGrid>
             <MapWrapper>
-              <LocationImage src="/images/about/location-map.png" alt="Location Map" />
+              <LocationImage src={`${process.env.PUBLIC_URL}/images/about/location-map.png`} alt="Location Map" />
             </MapWrapper>
             <TownImageWrapper>
-              <TownImage src="/images/about/Texiguat-satalite.png" alt="Texiguat Satellite Map" />
+              <TownImage src={`${process.env.PUBLIC_URL}/images/about/Texiguat-satalite.png`} alt="Texiguat Satellite Map" />
             </TownImageWrapper>
           </MapsGrid>
         </LocationInfo>

@@ -286,7 +286,7 @@ const Murals: React.FC = () => {
       id: 'october1',
       x: 10.092006546309836,
       y: 16.704177083006847,
-      imagePath: '/images/murals/First of October.JPG',
+      imagePath: `${process.env.PUBLIC_URL}/images/murals/First of October.JPG`,
       translationKey: 'october1',
       hasExtraContent: true
     },
@@ -294,14 +294,14 @@ const Murals: React.FC = () => {
       id: 'porceres',
       x: 21.046577754697434,
       y: 21.14382547716149,
-      imagePaths: ['/images/murals/Porceres and chicken 2.JPG', '/images/murals/Porceres and chicken 1.JPG'],
+      imagePaths: [`${process.env.PUBLIC_URL}/images/murals/Porceres and chicken 2.JPG`, `${process.env.PUBLIC_URL}/images/murals/Porceres and chicken 1.JPG`],
       translationKey: 'porceres'
     },
     {
       id: 'heroes',
       x: 29.499711443059518,
       y: 37.12655969611821,
-      imagePaths: ['/images/murals/heroes.JPG', '/images/murals/heroes2.JPG', '/images/murals/heroes3.JPG'],
+      imagePaths: [`${process.env.PUBLIC_URL}/images/murals/heroes.JPG`, `${process.env.PUBLIC_URL}/images/murals/heroes2.JPG`, `${process.env.PUBLIC_URL}/images/murals/heroes3.JPG`],
       translationKey: 'heroes',
       hasExtraContent: true
     },
@@ -309,35 +309,35 @@ const Murals: React.FC = () => {
       id: 'chess',
       x: 13.110982863582008,
       y: 22.179743435797576,
-      imagePath: '/images/murals/chess-mural.jpg',
+      imagePath: `${process.env.PUBLIC_URL}/images/murals/chess-mural.jpg`,
       translationKey: 'chess'
     },
     {
       id: 'devil',
       x: 15.526163917399746,
       y: 27.6553097885883,
-      imagePaths: ['/images/murals/Devil_1.jpg', '/images/murals/Devil_2.jpg'],
+      imagePaths: [`${process.env.PUBLIC_URL}/images/murals/Devil_1.jpg`, `${process.env.PUBLIC_URL}/images/murals/Devil_2.jpg`],
       translationKey: 'devil'
     },
     {
       id: 'lastnames',
       x: 17.855088505009707,
       y: 39.198395613390375,
-      imagePath: '/images/history/Town Hall_2.jpg',
+      imagePath: `${process.env.PUBLIC_URL}/images/history/Town Hall_2.jpg`,
       translationKey: 'lastnames'
     },
     {
       id: 'indigenous',
       x: 24.324323470592937,
       y: 45.16725547949097,
-      imagePath: '/images/murals/Indigenous life.JPG',
+      imagePath: `${process.env.PUBLIC_URL}/images/murals/Indigenous life.JPG`,
       translationKey: 'indigenous'
     },
     {
       id: 'mythical',
       x: 44.68084949562816,
       y: 52.961305635269774,
-      imagePath: '/images/murals/Mythical.JPG',
+      imagePath: `${process.env.PUBLIC_URL}/images/murals/Mythical.JPG`,
       translationKey: 'mythical'
     }
   ];
@@ -394,7 +394,7 @@ const Murals: React.FC = () => {
       <MuralsContent>
         <MapWrapper>
           <MapImage 
-            src="/images/murals/Satelite.png" 
+            src={`${process.env.PUBLIC_URL}/images/murals/Satelite.png`} 
             alt="Texiguat Satellite Map"
           />
           {murals.map((mural) => (

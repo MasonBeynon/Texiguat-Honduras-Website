@@ -208,7 +208,7 @@ const NaturalBeauty: React.FC = () => {
         <FeaturesGrid>
           <FeatureCard>
             <FeatureImageContainer>
-              <FeatureImageActual src="/images/natural/Rolling Hills.jpg" alt="Rolling Hills" />
+              <FeatureImageActual src={`${process.env.PUBLIC_URL}/images/natural/Rolling Hills.jpg`} alt="Rolling Hills" />
             </FeatureImageContainer>
             <FeatureIcon>🏔️</FeatureIcon>
             <FeatureTitle>{t('natural.features.rollingHills.title')}</FeatureTitle>
@@ -217,7 +217,7 @@ const NaturalBeauty: React.FC = () => {
           
           <FeatureCard>
             <FeatureImageContainer>
-              <FeatureImageActual src="/images/natural/Nueva Armania.jpg" alt="Nueva Armenia" />
+              <FeatureImageActual src={`${process.env.PUBLIC_URL}/images/natural/Nueva Armania.jpg`} alt="Nueva Armenia" />
             </FeatureImageContainer>
             <FeatureIcon>🏞️</FeatureIcon>
             <FeatureTitle>{t('natural.features.nuevaArmenia.title')}</FeatureTitle>
@@ -226,7 +226,7 @@ const NaturalBeauty: React.FC = () => {
           
           <FeatureCard>
             <FeatureImageContainer>
-              <FeatureImageActual src="/images/natural/Bridge.jpg" alt="River Bridge" />
+              <FeatureImageActual src={`${process.env.PUBLIC_URL}/images/natural/Bridge.jpg`} alt="River Bridge" />
             </FeatureImageContainer>
             <FeatureIcon>🌉</FeatureIcon>
             <FeatureTitle>{t('natural.features.riverBridge.title')}</FeatureTitle>

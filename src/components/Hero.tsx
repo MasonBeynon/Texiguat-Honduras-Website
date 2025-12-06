@@ -20,9 +20,9 @@ const BackgroundImage = styled.div`
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('/images/hero/Town Church.png');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   transform: translateY(0);
   z-index: 1;
 `;
@@ -115,9 +115,20 @@ const Hero: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Use process.env.PUBLIC_URL for the base path
+  // Note: The filename has a space: "Town Church.png" - need to encode it
+  const basePath = process.env.PUBLIC_URL || '/Texiguat-Honduras-Website';
+  // URL encode the space in the filename
+  const bgImageUrl = `${basePath}/images/hero/${encodeURIComponent('Town Church.png')}`;
+
   return (
     <HeroContainer>
-      <BackgroundImage ref={backgroundRef} />
+      <BackgroundImage 
+        ref={backgroundRef}
+        style={{
+          backgroundImage: `url(${bgImageUrl})`
+        }}
+      />
       <Overlay />
       <HeroContent>
         <HeroTitle>{t('hero.title')}</HeroTitle>

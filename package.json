@@ -1,7 +1,7 @@
 {
   "name": "honduras-website",
   "version": "0.1.0",
-  "homepage": "https://MasonBeynon.github.io/Texiguat-Honduras-Website",
+  "homepage": "/Texiguat-Honduras-Website",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
