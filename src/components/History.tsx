@@ -177,7 +177,7 @@ const History: React.FC = () => {
       <HistoryContentWrapper>
         <HistoryRowAlternate>
           <HistoryImageContainer>
-            <HistoryImageActual src="/images/history/Town Hall_2.jpg" alt="Town Hall" />
+            <HistoryImageActual src={`${process.env.PUBLIC_URL}/images/history/Town Hall_2.jpg`} alt="Town Hall" />
           </HistoryImageContainer>
           <HistoryTextContent>
             <HistoryCardTitle>{t('history.families.title')}</HistoryCardTitle>
@@ -187,7 +187,7 @@ const History: React.FC = () => {
         
         <HistoryRow>
           <HistoryImageContainer>
-            <HistoryImageActual src="/images/history/Trinidad_4.jpg" alt="Trinidad" />
+            <HistoryImageActual src={`${process.env.PUBLIC_URL}/images/history/Trinidad_4.jpg`} alt="Trinidad" />
           </HistoryImageContainer>
           <HistoryTextContent>
             <HistoryCardTitle>{t('history.morazan.title')}</HistoryCardTitle>
@@ -199,7 +199,7 @@ const History: React.FC = () => {
         
         <HistoryRowAlternate>
           <HistoryImageContainer>
-            <HistoryImageActual src="/images/hero/Town Church.png" alt="Town Church" />
+            <HistoryImageActual src={`${process.env.PUBLIC_URL || '/Texiguat-Honduras-Website'}/images/hero/${encodeURIComponent('Town Church.png')}`} alt="Town Church" />
           </HistoryImageContainer>
           <HistoryTextContent>
             <HistoryCardTitle>{t('history.church.title')}</HistoryCardTitle>
