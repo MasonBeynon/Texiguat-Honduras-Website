@@ -286,7 +286,7 @@ const Murals: React.FC = () => {
       id: 'october1',
       x: 10.092006546309836,
       y: 16.704177083006847,
-      imagePath: '/images/murals/october1-independence.jpg',
+      imagePath: '/images/murals/First of October.JPG',
       translationKey: 'october1',
       hasExtraContent: true
     },
@@ -294,14 +294,14 @@ const Murals: React.FC = () => {
       id: 'porceres',
       x: 21.046577754697434,
       y: 21.14382547716149,
-      imagePath: '/images/murals/porceres-chicken.jpg',
+      imagePaths: ['/images/murals/Porceres and chicken 2.JPG', '/images/murals/Porceres and chicken 1.JPG'],
       translationKey: 'porceres'
     },
     {
       id: 'heroes',
       x: 29.499711443059518,
       y: 37.12655969611821,
-      imagePaths: ['/images/murals/Trinidad_1.jpg', '/images/murals/Trinidad_2.jpg'],
+      imagePaths: ['/images/murals/heroes.JPG', '/images/murals/heroes2.JPG', '/images/murals/heroes3.JPG'],
       translationKey: 'heroes',
       hasExtraContent: true
     },
@@ -330,14 +330,14 @@ const Murals: React.FC = () => {
       id: 'indigenous',
       x: 24.324323470592937,
       y: 45.16725547949097,
-      imagePath: '/images/murals/indigenous-life-mural.jpg',
+      imagePath: '/images/murals/Indigenous life.JPG',
       translationKey: 'indigenous'
     },
     {
       id: 'mythical',
       x: 44.68084949562816,
       y: 52.961305635269774,
-      imagePath: '/images/murals/mythical-music-mural.jpg',
+      imagePath: '/images/murals/Mythical.JPG',
       translationKey: 'mythical'
     }
   ];
