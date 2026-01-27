@@ -31,12 +31,6 @@
     "predeploy": "npm run build",
     "deploy": "npx gh-pages -d build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
