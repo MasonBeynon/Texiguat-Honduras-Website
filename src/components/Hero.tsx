@@ -117,7 +117,7 @@ const Hero: React.FC = () => {
 
   // Use process.env.PUBLIC_URL for the base path
   // Note: The filename has a space: "Town Church.png" - need to encode it
-  const basePath = process.env.PUBLIC_URL || '/town-website';
+  const basePath = process.env.PUBLIC_URL;
   // URL encode the space in the filename
   const bgImageUrl = `${basePath}/images/hero/${encodeURIComponent('Town Church.png')}`;
 

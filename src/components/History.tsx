@@ -199,7 +199,7 @@ const History: React.FC = () => {
         
         <HistoryRowAlternate>
           <HistoryImageContainer>
-            <HistoryImageActual src={`${process.env.PUBLIC_URL || '/town-website'}/images/hero/${encodeURIComponent('Town Church.png')}`} alt="Town Church" />
+            <HistoryImageActual src={`${process.env.PUBLIC_URL}/images/hero/${encodeURIComponent('Town Church.png')}`} alt="Town Church" />
           </HistoryImageContainer>
           <HistoryTextContent>
             <HistoryCardTitle>{t('history.church.title')}</HistoryCardTitle>
